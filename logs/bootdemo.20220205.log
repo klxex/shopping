@@ -1,0 +1,437 @@
+2022-02-05 10:53:34 INFO Starting ShoppingApplication using Java 11.0.10 on DESKTOP-POHND0E with PID 16688 (C:\Users\hwan\Desktop\shopping\build\classes\java\main started by hwan in C:\Users\hwan\Desktop\shopping)
+2022-02-05 10:53:34 INFO No active profile set, falling back to default profiles: default
+2022-02-05 10:53:35 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-05 10:53:35 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-05 10:53:40 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-05 10:53:40 INFO Finished Spring Data repository scanning in 32 ms. Found 0 JPA repository interfaces.
+2022-02-05 10:53:43 INFO Tomcat initialized with port(s): 8080 (http)
+2022-02-05 10:53:43 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-05 10:53:43 INFO Starting service [Tomcat]
+2022-02-05 10:53:43 INFO Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-05 10:53:44 INFO Initializing Spring embedded WebApplicationContext
+2022-02-05 10:53:44 INFO Root WebApplicationContext: initialization completed in 8888 ms
+2022-02-05 10:53:44 INFO HikariPool-1 - Starting...
+2022-02-05 10:53:44 INFO HikariPool-1 - Start completed.
+2022-02-05 10:53:44 INFO H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/vue'
+2022-02-05 10:53:45 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-05 10:53:45 INFO HHH000412: Hibernate ORM core version 5.4.33
+2022-02-05 10:53:45 INFO HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-05 10:53:45 INFO HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-05 10:53:46 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-05 10:53:46 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-05 10:53:46 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-05 10:53:47 INFO Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-05 10:53:47 INFO LiveReload server is running on port 35729
+2022-02-05 10:53:48 INFO 
+
+Using generated security password: f4de37c8-ff70-4c44-b0c5-892477f31a23
+
+2022-02-05 10:53:48 INFO Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1bdba484, org.springframework.security.web.context.SecurityContextPersistenceFilter@3b2e4d07, org.springframework.security.web.header.HeaderWriterFilter@1f80e0c0, org.springframework.web.filter.CorsFilter@1145e870, org.springframework.security.web.csrf.CsrfFilter@344508f4, org.springframework.security.web.authentication.logout.LogoutFilter@540d2621, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4015809e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@82fcade, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@69a179e9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7761ffbe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4fb2f23f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25129d28, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f8e9554, org.springframework.security.web.session.SessionManagementFilter@772c2f10, org.springframework.security.web.access.ExceptionTranslationFilter@7df4a338, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@57b6d010]
+2022-02-05 10:53:48 INFO Starting ProtocolHandler ["http-nio-8080"]
+2022-02-05 10:53:48 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-05 10:53:49 INFO Started ShoppingApplication in 15.856 seconds (JVM running for 19.154)
+2022-02-05 11:02:44 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-05 11:02:44 INFO Initializing Servlet 'dispatcherServlet'
+2022-02-05 11:02:44 INFO Completed initialization in 6 ms
+2022-02-05 11:02:45 WARN Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [938] milliseconds.
+2022-02-05 11:52:47 INFO Starting ShoppingApplication using Java 11.0.10 on DESKTOP-POHND0E with PID 19228 (C:\Users\hwan\Desktop\shopping\build\classes\java\main started by hwan in C:\Users\hwan\Desktop\shopping)
+2022-02-05 11:52:47 INFO No active profile set, falling back to default profiles: default
+2022-02-05 11:52:47 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-05 11:52:47 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-05 11:52:51 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-05 11:52:51 INFO Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2022-02-05 11:52:54 INFO Tomcat initialized with port(s): 8080 (http)
+2022-02-05 11:52:54 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-05 11:52:54 INFO Starting service [Tomcat]
+2022-02-05 11:52:54 INFO Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-05 11:52:54 INFO Initializing Spring embedded WebApplicationContext
+2022-02-05 11:52:54 INFO Root WebApplicationContext: initialization completed in 6757 ms
+2022-02-05 11:52:55 INFO HikariPool-1 - Starting...
+2022-02-05 11:52:55 INFO HikariPool-1 - Start completed.
+2022-02-05 11:52:55 INFO H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/vue'
+2022-02-05 11:52:56 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-05 11:52:56 INFO HHH000412: Hibernate ORM core version 5.4.33
+2022-02-05 11:52:56 INFO HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-05 11:52:57 INFO HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-05 11:52:58 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-05 11:52:58 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-05 11:52:58 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-05 11:52:59 INFO Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-05 11:53:00 INFO LiveReload server is running on port 35729
+2022-02-05 11:53:00 INFO 
+
+Using generated security password: ec8c7666-5f05-4d67-b228-21f377391f39
+
+2022-02-05 11:53:01 INFO Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56dfa661, org.springframework.security.web.context.SecurityContextPersistenceFilter@7546ad6e, org.springframework.security.web.header.HeaderWriterFilter@38ce684f, org.springframework.web.filter.CorsFilter@5b4e79d3, org.springframework.security.web.csrf.CsrfFilter@46ae55c4, org.springframework.security.web.authentication.logout.LogoutFilter@5e5d5806, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@54fac661, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1190469, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@19ea9314, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3c1fcf29, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2434c950, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7f5e0bcb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@434c001b, org.springframework.security.web.session.SessionManagementFilter@5f3e2c07, org.springframework.security.web.access.ExceptionTranslationFilter@7e16176a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6bc3ac81]
+2022-02-05 11:53:01 INFO Starting ProtocolHandler ["http-nio-8080"]
+2022-02-05 11:53:01 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-05 11:53:02 INFO Started ShoppingApplication in 16.449 seconds (JVM running for 19.223)
+2022-02-05 11:54:08 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-05 11:54:08 INFO Initializing Servlet 'dispatcherServlet'
+2022-02-05 11:54:08 INFO Completed initialization in 3 ms
+2022-02-05 11:54:08 WARN Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [718] milliseconds.
+2022-02-05 11:55:08 INFO Starting ShoppingApplication using Java 11.0.10 on DESKTOP-POHND0E with PID 19068 (C:\Users\hwan\Desktop\shopping\build\classes\java\main started by hwan in C:\Users\hwan\Desktop\shopping)
+2022-02-05 11:55:08 INFO No active profile set, falling back to default profiles: default
+2022-02-05 11:55:09 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-05 11:55:09 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-05 11:55:12 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-05 11:55:12 INFO Finished Spring Data repository scanning in 24 ms. Found 0 JPA repository interfaces.
+2022-02-05 11:55:14 INFO Tomcat initialized with port(s): 8080 (http)
+2022-02-05 11:55:14 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-05 11:55:14 INFO Starting service [Tomcat]
+2022-02-05 11:55:14 INFO Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-05 11:55:15 INFO Initializing Spring embedded WebApplicationContext
+2022-02-05 11:55:15 INFO Root WebApplicationContext: initialization completed in 6105 ms
+2022-02-05 11:55:15 INFO HikariPool-1 - Starting...
+2022-02-05 11:55:15 INFO HikariPool-1 - Start completed.
+2022-02-05 11:55:15 INFO H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/vue'
+2022-02-05 11:55:16 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-05 11:55:16 INFO HHH000412: Hibernate ORM core version 5.4.33
+2022-02-05 11:55:16 INFO HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-05 11:55:17 INFO HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-05 11:55:17 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-05 11:55:17 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-05 11:55:18 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-05 11:55:19 INFO Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-05 11:55:20 INFO LiveReload server is running on port 35729
+2022-02-05 11:55:20 INFO 
+
+Using generated security password: ab391500-f7a9-416a-9898-36a3bec5105d
+
+2022-02-05 11:55:20 INFO Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ca766f1, org.springframework.security.web.context.SecurityContextPersistenceFilter@1063f6bb, org.springframework.security.web.header.HeaderWriterFilter@547b8765, org.springframework.web.filter.CorsFilter@76ed3802, org.springframework.security.web.csrf.CsrfFilter@6d683e5b, org.springframework.security.web.authentication.logout.LogoutFilter@56bfeddf, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4498aba8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@16e31936, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1ce99ee1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@225906f8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6dccf5a2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@259fb177, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@12edae09, org.springframework.security.web.session.SessionManagementFilter@2202e237, org.springframework.security.web.access.ExceptionTranslationFilter@150d5c5e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69e82f12]
+2022-02-05 11:55:21 INFO Starting ProtocolHandler ["http-nio-8080"]
+2022-02-05 11:55:21 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-05 11:55:22 INFO Started ShoppingApplication in 14.282 seconds (JVM running for 16.855)
+2022-02-05 11:55:28 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-05 11:55:28 INFO Initializing Servlet 'dispatcherServlet'
+2022-02-05 11:55:28 INFO Completed initialization in 3 ms
+2022-02-05 11:55:28 WARN Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [715] milliseconds.
+2022-02-05 11:56:53 INFO Starting ShoppingApplication using Java 11.0.10 on DESKTOP-POHND0E with PID 18656 (C:\Users\hwan\Desktop\shopping\build\classes\java\main started by hwan in C:\Users\hwan\Desktop\shopping)
+2022-02-05 11:56:53 INFO No active profile set, falling back to default profiles: default
+2022-02-05 11:56:53 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-05 11:56:53 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-05 11:56:57 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-05 11:56:57 INFO Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2022-02-05 11:57:01 INFO Tomcat initialized with port(s): 8080 (http)
+2022-02-05 11:57:01 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-05 11:57:01 INFO Starting service [Tomcat]
+2022-02-05 11:57:01 INFO Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-05 11:57:01 INFO Initializing Spring embedded WebApplicationContext
+2022-02-05 11:57:01 INFO Root WebApplicationContext: initialization completed in 8538 ms
+2022-02-05 11:57:02 INFO HikariPool-1 - Starting...
+2022-02-05 11:57:02 INFO HikariPool-1 - Start completed.
+2022-02-05 11:57:02 INFO H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/vue'
+2022-02-05 11:57:03 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-05 11:57:03 INFO HHH000412: Hibernate ORM core version 5.4.33
+2022-02-05 11:57:04 INFO HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-05 11:57:05 INFO HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-05 11:57:06 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-05 11:57:06 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-05 11:57:07 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-05 11:57:08 INFO Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-05 11:57:09 INFO LiveReload server is running on port 35729
+2022-02-05 11:57:09 WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'managementSecurityFilterChain' defined in class path resource [org/springframework/boot/actuate/autoconfigure/security/servlet/ManagementWebSecurityAutoConfiguration.class]: Unsatisfied dependency expressed through method 'managementSecurityFilterChain' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-02-05 11:57:09 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-05 11:57:09 INFO HikariPool-1 - Shutdown initiated...
+2022-02-05 11:57:09 INFO HikariPool-1 - Shutdown completed.
+2022-02-05 11:57:09 INFO Stopping service [Tomcat]
+2022-02-05 11:57:09 INFO 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-05 11:57:09 ERROR 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method managementSecurityFilterChain in org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityAutoConfiguration required a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' in your configuration.
+
+2022-02-05 12:04:10 INFO Starting ShoppingApplication using Java 11.0.10 on DESKTOP-POHND0E with PID 18628 (C:\Users\hwan\Desktop\shopping\build\classes\java\main started by hwan in C:\Users\hwan\Desktop\shopping)
+2022-02-05 12:04:10 INFO No active profile set, falling back to default profiles: default
+2022-02-05 12:04:10 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-05 12:04:10 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-05 12:04:15 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-05 12:04:15 INFO Finished Spring Data repository scanning in 23 ms. Found 0 JPA repository interfaces.
+2022-02-05 12:04:18 INFO Tomcat initialized with port(s): 8080 (http)
+2022-02-05 12:04:18 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-05 12:04:18 INFO Starting service [Tomcat]
+2022-02-05 12:04:18 INFO Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-05 12:04:18 INFO Initializing Spring embedded WebApplicationContext
+2022-02-05 12:04:18 INFO Root WebApplicationContext: initialization completed in 8022 ms
+2022-02-05 12:04:18 INFO HikariPool-1 - Starting...
+2022-02-05 12:04:19 INFO HikariPool-1 - Start completed.
+2022-02-05 12:04:19 INFO H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/vue'
+2022-02-05 12:04:19 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-05 12:04:19 INFO HHH000412: Hibernate ORM core version 5.4.33
+2022-02-05 12:04:20 INFO HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-05 12:04:20 INFO HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-05 12:04:21 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-05 12:04:21 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-05 12:04:21 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-05 12:04:22 INFO Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-05 12:04:22 INFO LiveReload server is running on port 35729
+2022-02-05 12:04:23 WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'managementSecurityFilterChain' defined in class path resource [org/springframework/boot/actuate/autoconfigure/security/servlet/ManagementWebSecurityAutoConfiguration.class]: Unsatisfied dependency expressed through method 'managementSecurityFilterChain' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-02-05 12:04:23 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-05 12:04:23 INFO HikariPool-1 - Shutdown initiated...
+2022-02-05 12:04:23 INFO HikariPool-1 - Shutdown completed.
+2022-02-05 12:04:23 INFO Stopping service [Tomcat]
+2022-02-05 12:04:23 INFO 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-05 12:04:23 ERROR 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method managementSecurityFilterChain in org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityAutoConfiguration required a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' in your configuration.
+
+2022-02-05 12:04:35 INFO Starting ShoppingApplication using Java 11.0.10 on DESKTOP-POHND0E with PID 3476 (C:\Users\hwan\Desktop\shopping\build\classes\java\main started by hwan in C:\Users\hwan\Desktop\shopping)
+2022-02-05 12:04:35 INFO No active profile set, falling back to default profiles: default
+2022-02-05 12:04:35 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-05 12:04:35 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-05 12:04:37 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-05 12:04:37 INFO Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2022-02-05 12:04:39 INFO Tomcat initialized with port(s): 8080 (http)
+2022-02-05 12:04:39 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-05 12:04:39 INFO Starting service [Tomcat]
+2022-02-05 12:04:39 INFO Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-05 12:04:39 INFO Initializing Spring embedded WebApplicationContext
+2022-02-05 12:04:39 INFO Root WebApplicationContext: initialization completed in 4646 ms
+2022-02-05 12:04:40 INFO HikariPool-1 - Starting...
+2022-02-05 12:04:40 INFO HikariPool-1 - Start completed.
+2022-02-05 12:04:40 INFO H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/vue'
+2022-02-05 12:04:40 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-05 12:04:40 INFO HHH000412: Hibernate ORM core version 5.4.33
+2022-02-05 12:04:41 INFO HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-05 12:04:41 INFO HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-05 12:04:41 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-05 12:04:41 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-05 12:04:42 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-05 12:04:42 INFO Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-05 12:04:43 INFO LiveReload server is running on port 35729
+2022-02-05 12:04:43 WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'managementSecurityFilterChain' defined in class path resource [org/springframework/boot/actuate/autoconfigure/security/servlet/ManagementWebSecurityAutoConfiguration.class]: Unsatisfied dependency expressed through method 'managementSecurityFilterChain' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-02-05 12:04:43 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-05 12:04:43 INFO HikariPool-1 - Shutdown initiated...
+2022-02-05 12:04:43 INFO HikariPool-1 - Shutdown completed.
+2022-02-05 12:04:43 INFO Stopping service [Tomcat]
+2022-02-05 12:04:43 INFO 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-05 12:04:43 ERROR 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method managementSecurityFilterChain in org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityAutoConfiguration required a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' in your configuration.
+
+2022-02-05 12:05:07 INFO Starting ShoppingApplication using Java 11.0.10 on DESKTOP-POHND0E with PID 19168 (C:\Users\hwan\Desktop\shopping\build\classes\java\main started by hwan in C:\Users\hwan\Desktop\shopping)
+2022-02-05 12:05:07 INFO No active profile set, falling back to default profiles: default
+2022-02-05 12:05:07 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-05 12:05:07 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-05 12:05:09 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-05 12:05:09 INFO Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2022-02-05 12:05:11 INFO Tomcat initialized with port(s): 8080 (http)
+2022-02-05 12:05:11 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-05 12:05:11 INFO Starting service [Tomcat]
+2022-02-05 12:05:11 INFO Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-05 12:05:11 INFO Initializing Spring embedded WebApplicationContext
+2022-02-05 12:05:11 INFO Root WebApplicationContext: initialization completed in 4361 ms
+2022-02-05 12:05:12 INFO HikariPool-1 - Starting...
+2022-02-05 12:05:12 INFO HikariPool-1 - Start completed.
+2022-02-05 12:05:12 INFO H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/vue'
+2022-02-05 12:05:12 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-05 12:05:12 INFO HHH000412: Hibernate ORM core version 5.4.33
+2022-02-05 12:05:12 INFO HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-05 12:05:13 INFO HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-05 12:05:13 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-05 12:05:13 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-05 12:05:14 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-05 12:05:14 INFO Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-05 12:05:15 INFO LiveReload server is running on port 35729
+2022-02-05 12:05:15 WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'managementSecurityFilterChain' defined in class path resource [org/springframework/boot/actuate/autoconfigure/security/servlet/ManagementWebSecurityAutoConfiguration.class]: Unsatisfied dependency expressed through method 'managementSecurityFilterChain' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-02-05 12:05:15 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-05 12:05:15 INFO HikariPool-1 - Shutdown initiated...
+2022-02-05 12:05:15 INFO HikariPool-1 - Shutdown completed.
+2022-02-05 12:05:15 INFO Stopping service [Tomcat]
+2022-02-05 12:05:15 INFO 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-05 12:05:15 ERROR 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method managementSecurityFilterChain in org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityAutoConfiguration required a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' in your configuration.
+
+2022-02-05 12:13:50 INFO Starting ShoppingApplication using Java 11.0.10 on DESKTOP-POHND0E with PID 11760 (C:\Users\hwan\Desktop\shopping\build\classes\java\main started by hwan in C:\Users\hwan\Desktop\shopping)
+2022-02-05 12:13:50 INFO No active profile set, falling back to default profiles: default
+2022-02-05 12:13:50 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-05 12:13:50 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-05 12:13:53 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-05 12:13:53 INFO Finished Spring Data repository scanning in 23 ms. Found 0 JPA repository interfaces.
+2022-02-05 12:13:55 INFO Tomcat initialized with port(s): 8080 (http)
+2022-02-05 12:13:55 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-05 12:13:55 INFO Starting service [Tomcat]
+2022-02-05 12:13:55 INFO Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-05 12:13:56 INFO Initializing Spring embedded WebApplicationContext
+2022-02-05 12:13:56 INFO Root WebApplicationContext: initialization completed in 5780 ms
+2022-02-05 12:13:56 INFO HikariPool-1 - Starting...
+2022-02-05 12:13:56 INFO HikariPool-1 - Start completed.
+2022-02-05 12:13:56 INFO H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/vue'
+2022-02-05 12:13:57 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-05 12:13:57 INFO HHH000412: Hibernate ORM core version 5.4.33
+2022-02-05 12:13:57 INFO HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-05 12:13:58 INFO HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-05 12:13:58 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-05 12:13:58 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-05 12:13:59 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-05 12:13:59 INFO Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-05 12:14:00 INFO LiveReload server is running on port 35729
+2022-02-05 12:14:00 WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'managementSecurityFilterChain' defined in class path resource [org/springframework/boot/actuate/autoconfigure/security/servlet/ManagementWebSecurityAutoConfiguration.class]: Unsatisfied dependency expressed through method 'managementSecurityFilterChain' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-02-05 12:14:00 INFO Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-05 12:14:00 INFO HikariPool-1 - Shutdown initiated...
+2022-02-05 12:14:00 INFO HikariPool-1 - Shutdown completed.
+2022-02-05 12:14:00 INFO Stopping service [Tomcat]
+2022-02-05 12:14:00 INFO 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-05 12:14:00 ERROR 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method managementSecurityFilterChain in org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityAutoConfiguration required a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' in your configuration.
+
+2022-02-05 12:55:31 INFO Starting ShoppingApplication using Java 11.0.10 on DESKTOP-POHND0E with PID 12836 (C:\Users\hwan\Desktop\shopping\build\classes\java\main started by hwan in C:\Users\hwan\Desktop\shopping)
+2022-02-05 12:55:31 INFO No active profile set, falling back to default profiles: default
+2022-02-05 12:55:31 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-05 12:55:31 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-05 12:55:36 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-05 12:55:36 INFO Finished Spring Data repository scanning in 28 ms. Found 0 JPA repository interfaces.
+2022-02-05 12:55:40 INFO Tomcat initialized with port(s): 8080 (http)
+2022-02-05 12:55:40 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-05 12:55:40 INFO Starting service [Tomcat]
+2022-02-05 12:55:40 INFO Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-05 12:55:40 INFO Initializing Spring embedded WebApplicationContext
+2022-02-05 12:55:40 INFO Root WebApplicationContext: initialization completed in 9163 ms
+2022-02-05 12:55:41 INFO HikariPool-1 - Starting...
+2022-02-05 12:55:41 INFO HikariPool-1 - Start completed.
+2022-02-05 12:55:41 INFO H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/vue'
+2022-02-05 12:55:42 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-05 12:55:42 INFO HHH000412: Hibernate ORM core version 5.4.33
+2022-02-05 12:55:42 INFO HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-05 12:55:43 INFO HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-05 12:55:43 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-05 12:55:43 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-05 12:55:44 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-05 12:55:45 INFO Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-05 12:55:46 INFO LiveReload server is running on port 35729
+2022-02-05 12:55:47 INFO Starting ProtocolHandler ["http-nio-8080"]
+2022-02-05 12:55:47 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-05 12:55:48 INFO Started ShoppingApplication in 18.72 seconds (JVM running for 21.42)
+2022-02-05 12:56:05 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-05 12:56:05 INFO Initializing Servlet 'dispatcherServlet'
+2022-02-05 12:56:05 INFO Completed initialization in 5 ms
+2022-02-05 12:56:06 WARN Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2022-02-05 12:56:16 WARN Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2022-02-05 13:43:34 WARN Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2022-02-05 17:38:15 INFO Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol [HTTP/1.1\r\n...]
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:570) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269) [tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) [tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732) [tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.56.jar:9.0.56]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2022-02-05 19:07:16 WARN Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2022-02-05 19:07:19 WARN Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2022-02-05 20:09:35 INFO Starting ShoppingApplication using Java 11.0.10 on DESKTOP-POHND0E with PID 11284 (C:\Users\hwan\Desktop\shopping\build\classes\java\main started by hwan in C:\Users\hwan\Desktop\shopping)
+2022-02-05 20:09:35 INFO No active profile set, falling back to default profiles: default
+2022-02-05 20:09:35 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-05 20:09:35 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-05 20:09:38 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-05 20:09:38 INFO Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2022-02-05 20:09:40 INFO Tomcat initialized with port(s): 8080 (http)
+2022-02-05 20:09:40 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-05 20:09:40 INFO Starting service [Tomcat]
+2022-02-05 20:09:40 INFO Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-05 20:09:40 INFO Initializing Spring embedded WebApplicationContext
+2022-02-05 20:09:40 INFO Root WebApplicationContext: initialization completed in 5014 ms
+2022-02-05 20:09:41 INFO HikariPool-1 - Starting...
+2022-02-05 20:09:41 INFO HikariPool-1 - Start completed.
+2022-02-05 20:09:41 INFO H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/vue'
+2022-02-05 20:09:41 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-05 20:09:41 INFO HHH000412: Hibernate ORM core version 5.4.33
+2022-02-05 20:09:42 INFO HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-05 20:09:42 INFO HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-05 20:09:43 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-05 20:09:43 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-05 20:09:43 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-05 20:09:44 INFO Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-05 20:09:44 INFO LiveReload server is running on port 35729
+2022-02-05 20:09:45 INFO Starting ProtocolHandler ["http-nio-8080"]
+2022-02-05 20:09:45 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-05 20:09:46 INFO Started ShoppingApplication in 11.152 seconds (JVM running for 13.077)
+2022-02-05 20:10:52 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-05 20:10:52 INFO Initializing Servlet 'dispatcherServlet'
+2022-02-05 20:10:52 INFO Completed initialization in 3 ms
+2022-02-05 20:10:53 WARN Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2022-02-05 20:49:29 INFO Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x00u0x010x000x00q0x030x030x890xdf0xa40xdf0x9a0x140xc60x83w0x080x860xa3mU0x0b0xc30xe10x07bb0x85T0x8b0x130xb7O0x080x88I0xe9C(0x000x000x1a0xc0/0xc0+0xc00x110xc00x070xc00x130xc00x090xc00x140xc00x0a0x000x050x00/0x0050xc00x120x000x0a0x010x000x00.0x000x050x000x050x010x000x000x000x000x000x0a0x000x080x000x060x000x170x000x180x000x190x000x0b0x000x020x010x000x000x0d0x000x0a0x000x080x040x010x040x030x020x010x020x030xff0x010x000x010x00...]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:269) [tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) [tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732) [tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.56.jar:9.0.56]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2022-02-05 21:31:17 WARN Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2022-02-05 21:31:23 WARN Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
