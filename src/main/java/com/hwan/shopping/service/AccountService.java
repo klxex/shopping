@@ -30,4 +30,7 @@ public class AccountService implements UserDetailsService {
         accountRequestDto.setPassword(encode.encode(accountRequestDto.getPassword()));
         return accountRepository.save(accountRequestDto.toEntity()).getId();
     }
+
+
+
 }

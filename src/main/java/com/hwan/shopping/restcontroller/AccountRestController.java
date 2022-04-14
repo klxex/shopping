@@ -19,7 +19,6 @@ public class AccountRestController {
 
     @PostMapping("/account")
     public void save(@RequestBody AccountRequestDto accountRequestDto){
-
         accountService.save(accountRequestDto);
     }
 

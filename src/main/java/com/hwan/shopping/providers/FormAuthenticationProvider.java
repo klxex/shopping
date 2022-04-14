@@ -29,7 +29,6 @@ public class FormAuthenticationProvider implements AuthenticationProvider {
         if (!passwordEncoder.matches(password, passwordFromDb)) {
             throw new BadCredentialsException("비밀번호가 틀립니다.");
         }
-        System.out.println("this is provider");
         return new UsernamePasswordAuthenticationToken(accountContext.getAccount(), null, accountContext.getAuthorities());
     }
 

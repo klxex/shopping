@@ -1,6 +1,8 @@
 package com.hwan.shopping.domain;
 
+import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
@@ -8,6 +10,7 @@ import javax.persistence.*;
 
 @Getter
 @Setter
+@NoArgsConstructor
 @Entity
 public class Board {
     @Id
@@ -19,4 +22,11 @@ public class Board {
     private String author;
     private int count;
 
+    @Builder
+    public Board(String title, String content, String author, int count) {
+        this.title = title;
+        this.content = content;
+        this.author = author;
+        this.count = count;
+    }
 }

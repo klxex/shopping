@@ -18,6 +18,10 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
-
+server:
+  servlet:
+    session:
+      cookie:
+        httponly: false
 logging:
   config: classpath:log4j2.xml

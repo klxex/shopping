@@ -8,7 +8,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class AccountRequestDto {
-    private Long id;
+
     private String email;
     private String password;
     private String name;
@@ -16,7 +16,6 @@ public class AccountRequestDto {
 
     public Account toEntity(){
         return Account.builder()
-                .id(this.getId())
                 .name(this.getName())
                 .email(this.getEmail())
                 .password(this.getPassword())
