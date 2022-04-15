@@ -25,6 +25,7 @@ public class BoardService {
         boardRepository.save(boardRequestDto.toEntity());
     }
 
+
     public void update(BoardRequestDto boardRequestDto){
         Optional<Board> board= boardRepository.findById(boardRequestDto.getId());
 

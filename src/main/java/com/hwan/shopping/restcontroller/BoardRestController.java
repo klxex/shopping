@@ -38,7 +38,7 @@ public class BoardRestController {
         boardService.add(boardRequestDto);
     }
 
-    @PatchMapping("/boards/{id}")
+    @PutMapping("/boards/{id}")
     public void updateBoard(@RequestBody BoardRequestDto boardRequestDto){
         boardService.update(boardRequestDto);
     }
