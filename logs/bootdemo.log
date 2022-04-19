@@ -36,3 +36,119 @@
 2022-04-19 09:08:54 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-04-19 09:08:54 INFO Initializing Servlet 'dispatcherServlet'
 2022-04-19 09:08:54 INFO Completed initialization in 4 ms
+2022-04-19 10:31:33 INFO Starting ShoppingApplication using Java 11.0.10 on DESKTOP-POHND0E with PID 4256 (C:\Users\hwan\Desktop\shopping\build\classes\java\main started by hwan in C:\Users\hwan\Desktop\shopping)
+2022-04-19 10:31:34 INFO No active profile set, falling back to default profiles: default
+2022-04-19 10:31:34 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-19 10:31:34 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-19 10:31:36 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-19 10:31:36 INFO Finished Spring Data repository scanning in 109 ms. Found 2 JPA repository interfaces.
+2022-04-19 10:31:37 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2a60c539' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-19 10:31:37 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-19 10:31:39 INFO Tomcat initialized with port(s): 8080 (http)
+2022-04-19 10:31:39 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-19 10:31:39 INFO Starting service [Tomcat]
+2022-04-19 10:31:39 INFO Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-04-19 10:31:39 INFO Initializing Spring embedded WebApplicationContext
+2022-04-19 10:31:39 INFO Root WebApplicationContext: initialization completed in 5525 ms
+2022-04-19 10:31:39 INFO HikariPool-1 - Starting...
+2022-04-19 10:31:40 INFO HikariPool-1 - Start completed.
+2022-04-19 10:31:40 INFO H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/vue'
+2022-04-19 10:31:40 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-19 10:31:40 INFO HHH000412: Hibernate ORM core version 5.4.33
+2022-04-19 10:31:41 INFO HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-19 10:31:41 INFO HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-19 10:31:42 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-19 10:31:42 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-19 10:31:43 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-19 10:31:44 INFO Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-19 10:31:45 INFO Will secure Ant [pattern='/css/**'] with []
+2022-04-19 10:31:45 INFO Will secure Ant [pattern='/js/**'] with []
+2022-04-19 10:31:45 INFO Will secure Ant [pattern='/img/**'] with []
+2022-04-19 10:31:45 INFO Will secure Ant [pattern='/lib/**'] with []
+2022-04-19 10:31:45 INFO Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1eca9ca3, org.springframework.security.web.context.SecurityContextPersistenceFilter@4aece7c6, org.springframework.security.web.header.HeaderWriterFilter@99d9ee1, org.springframework.web.filter.CorsFilter@541d157b, org.springframework.security.web.authentication.logout.LogoutFilter@7137e378, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@12ad31bd, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@41e4bf37, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@46a3c14a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4df28514, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@491722a8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d7830fa, org.springframework.security.web.session.SessionManagementFilter@793d45b2, org.springframework.security.web.access.ExceptionTranslationFilter@3132e815, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@750f2c9f]
+2022-04-19 10:31:45 INFO LiveReload server is running on port 35729
+2022-04-19 10:31:45 INFO Adding welcome page: class path resource [static/index.html]
+2022-04-19 10:31:46 INFO Starting ProtocolHandler ["http-nio-8080"]
+2022-04-19 10:31:46 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-19 10:31:46 INFO Started ShoppingApplication in 13.859 seconds (JVM running for 16.205)
+2022-04-19 10:32:44 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-19 10:32:44 INFO Initializing Servlet 'dispatcherServlet'
+2022-04-19 10:32:44 INFO Completed initialization in 2 ms
+2022-04-19 10:53:15 WARN Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2022-04-19 10:58:32 INFO Starting ShoppingApplication using Java 11.0.10 on DESKTOP-POHND0E with PID 14380 (C:\Users\hwan\Desktop\shopping\build\classes\java\main started by hwan in C:\Users\hwan\Desktop\shopping)
+2022-04-19 10:58:32 INFO No active profile set, falling back to default profiles: default
+2022-04-19 10:58:33 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-19 10:58:33 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-19 10:58:35 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-19 10:58:35 INFO Finished Spring Data repository scanning in 109 ms. Found 2 JPA repository interfaces.
+2022-04-19 10:58:36 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4cadf54e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-19 10:58:36 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-19 10:58:38 INFO Tomcat initialized with port(s): 8080 (http)
+2022-04-19 10:58:38 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-19 10:58:38 INFO Starting service [Tomcat]
+2022-04-19 10:58:38 INFO Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-04-19 10:58:38 INFO Initializing Spring embedded WebApplicationContext
+2022-04-19 10:58:38 INFO Root WebApplicationContext: initialization completed in 5430 ms
+2022-04-19 10:58:38 INFO HikariPool-1 - Starting...
+2022-04-19 10:58:38 INFO HikariPool-1 - Start completed.
+2022-04-19 10:58:38 INFO H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/vue'
+2022-04-19 10:58:39 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-19 10:58:39 INFO HHH000412: Hibernate ORM core version 5.4.33
+2022-04-19 10:58:39 INFO HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-19 10:58:40 INFO HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-19 10:58:41 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-19 10:58:41 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-19 10:58:42 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-19 10:58:43 INFO Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-19 10:58:43 INFO Will secure Ant [pattern='/css/**'] with []
+2022-04-19 10:58:43 INFO Will secure Ant [pattern='/js/**'] with []
+2022-04-19 10:58:43 INFO Will secure Ant [pattern='/img/**'] with []
+2022-04-19 10:58:43 INFO Will secure Ant [pattern='/lib/**'] with []
+2022-04-19 10:58:43 INFO Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d45171e, org.springframework.security.web.context.SecurityContextPersistenceFilter@61b52e24, org.springframework.security.web.header.HeaderWriterFilter@677f450d, org.springframework.web.filter.CorsFilter@1abcc6f0, org.springframework.security.web.authentication.logout.LogoutFilter@4c4b2cf3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@db1f832, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@635297e5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@14b4c1de, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@35ac1f5e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e589e00, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16c6db12, org.springframework.security.web.session.SessionManagementFilter@794f56d6, org.springframework.security.web.access.ExceptionTranslationFilter@4bdd0006, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d95ba20]
+2022-04-19 10:58:44 INFO LiveReload server is running on port 35729
+2022-04-19 10:58:44 INFO Adding welcome page: class path resource [static/index.html]
+2022-04-19 10:58:44 INFO Starting ProtocolHandler ["http-nio-8080"]
+2022-04-19 10:58:44 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-19 10:58:45 INFO Started ShoppingApplication in 13.059 seconds (JVM running for 15.036)
+2022-04-19 10:59:14 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-19 10:59:14 INFO Initializing Servlet 'dispatcherServlet'
+2022-04-19 10:59:14 INFO Completed initialization in 3 ms
+2022-04-19 13:07:34 INFO Starting ShoppingApplication using Java 11.0.10 on DESKTOP-POHND0E with PID 17252 (C:\Users\hwan\Desktop\shopping\build\classes\java\main started by hwan in C:\Users\hwan\Desktop\shopping)
+2022-04-19 13:07:34 INFO No active profile set, falling back to default profiles: default
+2022-04-19 13:07:35 INFO Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-19 13:07:35 INFO For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-19 13:07:37 INFO Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-19 13:07:37 INFO Finished Spring Data repository scanning in 122 ms. Found 2 JPA repository interfaces.
+2022-04-19 13:07:39 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4cfb6150' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-19 13:07:39 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-19 13:07:40 INFO Tomcat initialized with port(s): 8080 (http)
+2022-04-19 13:07:40 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-19 13:07:40 INFO Starting service [Tomcat]
+2022-04-19 13:07:40 INFO Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-04-19 13:07:41 INFO Initializing Spring embedded WebApplicationContext
+2022-04-19 13:07:41 INFO Root WebApplicationContext: initialization completed in 5988 ms
+2022-04-19 13:07:41 INFO HikariPool-1 - Starting...
+2022-04-19 13:07:41 INFO HikariPool-1 - Start completed.
+2022-04-19 13:07:41 INFO H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/vue'
+2022-04-19 13:07:42 INFO HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-19 13:07:42 INFO HHH000412: Hibernate ORM core version 5.4.33
+2022-04-19 13:07:42 INFO HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-19 13:07:43 INFO HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-19 13:07:44 INFO HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-19 13:07:44 INFO Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-19 13:07:45 WARN spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-19 13:07:46 INFO Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-04-19 13:07:47 INFO Will secure Ant [pattern='/css/**'] with []
+2022-04-19 13:07:47 INFO Will secure Ant [pattern='/js/**'] with []
+2022-04-19 13:07:47 INFO Will secure Ant [pattern='/img/**'] with []
+2022-04-19 13:07:47 INFO Will secure Ant [pattern='/lib/**'] with []
+2022-04-19 13:07:47 INFO Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@734f2d5f, org.springframework.security.web.context.SecurityContextPersistenceFilter@c4ec1d2, org.springframework.security.web.header.HeaderWriterFilter@39f060c5, org.springframework.web.filter.CorsFilter@47deea34, org.springframework.security.web.authentication.logout.LogoutFilter@379d4c07, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@751e25cb, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4967db63, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2fa56cd3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58932908, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@201495df, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@376093dc, org.springframework.security.web.session.SessionManagementFilter@6957977c, org.springframework.security.web.access.ExceptionTranslationFilter@2cfedca1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6468c7a9]
+2022-04-19 13:07:47 INFO LiveReload server is running on port 35729
+2022-04-19 13:07:47 INFO Adding welcome page: class path resource [static/index.html]
+2022-04-19 13:07:48 INFO Starting ProtocolHandler ["http-nio-8080"]
+2022-04-19 13:07:48 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-19 13:07:48 INFO Started ShoppingApplication in 15.148 seconds (JVM running for 17.678)
+2022-04-19 13:46:37 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-19 13:46:37 INFO Initializing Servlet 'dispatcherServlet'
+2022-04-19 13:46:37 INFO Completed initialization in 5 ms
+2022-04-19 17:42:29 WARN Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [636] milliseconds.

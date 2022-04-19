@@ -16,9 +16,14 @@ public class BoardService {
 
     private final BoardRepository boardRepository;
 
-    public Page<Board> getBoard(Pageable pageable){
+    public Page<Board> getAllBoard(Pageable pageable){
 
         return boardRepository.findAll(pageable);
+    }
+
+    public Board getBoard(Long id){
+        Optional<Board> board = boardRepository.findById(id);
+        return board.get();
     }
 
     public void add(BoardRequestDto boardRequestDto){

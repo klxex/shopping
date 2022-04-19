@@ -19,7 +19,7 @@ public class BoardRestController {
     private final BoardService boardService;
     @GetMapping("/boards")
     public List<BoardResponseDto> readBoard(@PageableDefault(size=7,sort = "id") Pageable pageable){
-        Page<Board> boards =  boardService.getBoard(pageable);
+        Page<Board> boards =  boardService.getAllBoard(pageable);
         List<Board> list = boards.getContent();
         List<BoardResponseDto> lists = new LinkedList<>();
         for(Board board:list){
@@ -35,8 +35,7 @@ public class BoardRestController {
 
     @GetMapping("/boards/{id}")
     public Board  getBoard(@PathVariable Long id){
-        System.out.println(id);
-        return null;
+        return boardService.getBoard(id);
     }
 
     @PostMapping("/boards")
