@@ -33,6 +33,12 @@ public class BoardRestController {
         return lists;
     }
 
+    @GetMapping("/boards/{id}")
+    public Board  getBoard(@PathVariable Long id){
+        System.out.println(id);
+        return null;
+    }
+
     @PostMapping("/boards")
     public void createBoard(@RequestBody BoardRequestDto boardRequestDto){
         boardService.add(boardRequestDto);
